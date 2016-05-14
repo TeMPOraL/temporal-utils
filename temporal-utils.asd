@@ -11,4 +11,5 @@
   :components
   ((:module "src"
             :components ((:file "package")
-                         (:file "macros")))))
+                         (:file "macros")
+                         (:file "types")))))

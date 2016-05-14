@@ -3,4 +3,7 @@
 (defpackage #:temporal-utils
   (:nicknames #:trc.u)
   (:use #:cl)
-  (:export #:pprint-macroexpand))
+  (:export #:pprint-macroexpand
+           
+           #:all-number-p
+           #:all-number-p*))
